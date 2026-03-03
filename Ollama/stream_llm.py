@@ -9,4 +9,4 @@ stream = chat(
 )
 
 for chunk in stream:
-  print(chunk['message']['content'], end='', flush=True)
+  print(chunk['message']['content'], end='\n', flush=True)
